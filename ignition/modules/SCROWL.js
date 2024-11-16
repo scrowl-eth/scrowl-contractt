@@ -7,5 +7,5 @@ module.exports = buildModule("SCROWL", (m) => {
 
   m.call(nft, "setMarketplace", [marketplace]);
 
-  return { nft, marketplace };
+  return { nft, marketplace, gameTopUp };
 });
